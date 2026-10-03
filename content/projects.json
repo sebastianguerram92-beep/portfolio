@@ -208,7 +208,7 @@
     "meta": "Globant · May 2024–Dec 2025",
     "cardMeta": "Senior PM · Globant · 2024–2025",
     "cardResult": "MVP launched for 3 parks · checkout, catalog and search · team of 32",
-    "layout": "half",
+    "layout": "wide",
     "coverBg": "assets/img/bg-qiddiya.jpg",
     "coverStat": {
       "value": "3 parks",
@@ -256,7 +256,7 @@
     "meta": "Globant · 2024",
     "cardMeta": "Senior PM · Globant · 2024",
     "cardResult": "Details saved once, pre-filled at checkout · mobile and web",
-    "layout": "half",
+    "layout": "wide",
     "coverBg": "assets/img/bg-seven.jpg",
     "coverStat": {
       "value": "Saved once",
@@ -284,7 +284,7 @@
     "meta": "Strategy case study · European market · 2025",
     "cardMeta": "Strategy case study · 2025",
     "cardResult": "Earned a job offer · €491k MVP plan",
-    "layout": "half",
+    "layout": "wide",
     "cover": "assets/img/beer-prototype.jpg",
     "coverAlt": "The Beer World prototype home page",
     "star": {
@@ -366,7 +366,7 @@
     "meta": "Pilot · 2024",
     "cardMeta": "Product lead · Pilot · 2024",
     "cardResult": "5 pilot clients · one clear lesson on tradeoffs",
-    "layout": "half",
+    "layout": "wide",
     "cover": "assets/img/crm-dashboard.jpg",
     "coverAlt": "Lead CRM dashboard with clients per month and per sector",
     "star": {

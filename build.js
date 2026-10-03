@@ -16,6 +16,8 @@ const esc = (s = '') => String(s)
 // Text with **bold** support, nothing else.
 const md = (s = '') => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 const year = new Date().getFullYear();
+// Changes whenever style.css changes, so browsers never keep an old copy.
+const CSS_VERSION = require('crypto').createHash('md5').update(fs.readFileSync(path.join(ROOT, 'assets/css/style.css'))).digest('hex').slice(0, 8);
 
 const ICONS = {
   target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/>',
@@ -44,7 +46,7 @@ function layout({ title, description, base, body, pagePath, image }) {
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="${base}assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="${base}assets/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="${base}assets/css/style.css">
+<link rel="stylesheet" href="${base}assets/css/style.css?v=${CSS_VERSION}">
 </head>
 <body>
 <main class="page">
@@ -146,7 +148,7 @@ ${nav(base)}
 
 <section id="work" class="panel">
 <div class="section-head">
-<h2 class="h2">Selected work</h2>
+<h2 class="h2">My work</h2>
 <p class="lead">What I built, the calls I made, and what changed.</p>
 </div>
 <div class="grid">

@@ -66,7 +66,7 @@ h1, h2, h3, p { margin: 0; }
 .hero h1 { font-size: clamp(42px, 5.6vw, 76px); line-height: 1.02; font-weight: 500; letter-spacing: -0.035em; }
 .hero h1 strong { font-weight: 800; }
 .hero__sub { font-size: 20px; line-height: 1.5; color: var(--muted); max-width: 540px; }
-.hero__photo { flex: 0 1 340px; width: 100%; max-width: 340px; height: auto; aspect-ratio: 880 / 1247; object-fit: cover; object-position: center; border-radius: 28px; margin-inline: auto; }
+.hero__photo { flex: 0 1 320px; width: 100%; max-width: 320px; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 40%; border-radius: 28px; margin-inline: auto; }
 
 /* Led-for row */
 .names { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 48px; font-size: 21px; font-weight: 700; color: #3A3A40; list-style: none; margin: 0; padding: 0; }
@@ -96,7 +96,7 @@ h1, h2, h3, p { margin: 0; }
 .cover-stat b { font-size: clamp(32px, 4vw, 48px); font-weight: 800; letter-spacing: -0.03em; }
 .cover-stat span { font-size: 14px; color: var(--on-inverse-quiet); }
 .cover-flow { display: flex; flex-wrap: wrap; align-content: center; justify-content: center; gap: 10px 6px; padding: 28px; background: var(--inverse); height: 100%; list-style: none; margin: 0; }
-.card .card__media--flow { aspect-ratio: auto; }
+@media (max-width: 640px) { .card .card__media--flow { aspect-ratio: auto; } }
 .cover-flow { min-height: 240px; }
 .cover-flow li { display: flex; align-items: center; gap: 6px; color: var(--on-inverse); font-size: 14px; font-weight: 600; }
 .cover-flow li span { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.18); border-radius: 999px; padding: 8px 14px; }
@@ -220,5 +220,8 @@ figcaption { font-size: 14px; line-height: 1.5; color: var(--quiet); padding-lef
 .next.has-bg span { color: rgba(255,255,255,0.85); }
 
 @media (max-width: 640px) {
-  .hero__photo { max-width: 300px; }
+  .hero__photo { max-width: 280px; }
 }
+
+/* Every project card is a full-width row, same height as Kivval */
+.card--wide .card__media { align-self: stretch; }
