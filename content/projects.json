@@ -1,0 +1,389 @@
+[
+  {
+    "slug": "kivval",
+    "name": "Kivval",
+    "tagline": "Car buying and ownership in Colombia, made transparent.",
+    "role": "Co-founder and product lead",
+    "meta": "Colombia · 2021–2025",
+    "cardMeta": "Co-founder and product lead · 2021–2025",
+    "cardResult": "35k people in year one · ~US$200k in sales · break-even in 2024",
+    "layout": "wide",
+    "cover": "assets/img/kivval-web.jpg",
+    "coverAlt": "Kivval web app home page with car search and ownership steps",
+    "star": {
+      "situation": "Buying a car meant comparing dealers one by one and guessing the real cost of owning it.",
+      "task": "One platform that shows the full cost before you buy, and stays with you after.",
+      "action": "Shipped a mobile MVP, listened, moved to web, refocused on ownership services.",
+      "result": "35k people in year one, ~US$200k in sales, break-even in 2024."
+    },
+    "numbers": [
+      {
+        "value": "35k",
+        "label": "people reached in year one"
+      },
+      {
+        "value": "~US$200k",
+        "label": "in vehicle sales"
+      },
+      {
+        "value": "0.5%",
+        "label": "visitor-to-buyer conversion"
+      },
+      {
+        "value": "US$500",
+        "label": "LTV over two years"
+      }
+    ],
+    "sections": [
+      {
+        "type": "images",
+        "items": [
+          {
+            "image": "assets/img/kivval-app.jpg",
+            "alt": "Kivval app flow: search, compare, buy and Mi Kivval screens",
+            "caption": "The mobile MVP flow: search, compare, buy, then manage the car in Mi Kivval."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": "The insight",
+        "body": "After seeing the full comparison, people bought wherever the car was cheapest, so the purchase commission was small. The real pain, and the bigger market, was ownership: insurance, SOAT, taxes, oil, brakes and tires. So Kivval grew from comparing cars into managing them."
+      },
+      {
+        "type": "stats",
+        "title": "How I listened",
+        "items": [
+          {
+            "value": "2.6M → 635",
+            "label": "store impressions to downloads: the app itself was the barrier"
+          },
+          {
+            "value": "61%",
+            "label": "of active users came mainly to compare"
+          },
+          {
+            "value": "38%",
+            "label": "asked for used cars, so we added them"
+          }
+        ]
+      },
+      {
+        "type": "beforeAfter",
+        "title": "How we iterated",
+        "items": [
+          {
+            "before": "SOAT: \"contact the insurer\"",
+            "after": "pay directly inside the product"
+          },
+          {
+            "before": "Comparison: specs only",
+            "after": "ownership costs clear at a glance"
+          },
+          {
+            "before": "Home: one long list",
+            "after": "shortcuts and a first-time guide"
+          },
+          {
+            "before": "Prices: updated by hand",
+            "after": "automated data and pico y placa alerts"
+          }
+        ],
+        "image": {
+          "image": "assets/img/kivval-compare.jpg",
+          "alt": "Kivval comparison screen before and after the sprint 5 redesign",
+          "caption": "Sprint 5: the comparison, before and after."
+        }
+      },
+      {
+        "type": "list",
+        "title": "Four decisions",
+        "items": [
+          "**Mobile to web app (2024).** Store data and research both showed download friction.",
+          "**Cut the launch discount.** It drove first purchases, not loyalty.",
+          "**Built B2B partnerships** for financing, insurance, designated drivers and car washes.",
+          "**Cut Kivval+.** The US$5/month plan didn't get the engagement it needed."
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "What I learned",
+        "body": "Kivval needed a stronger, AI-driven platform and better marketing. My co-founders wanted to stay closer to a dealership model, and we parted ways in 2025. When leadership isn't aligned on the vision, effort alone won't save a product. Now I align vision, roadmap and roles before anything gets built."
+      }
+    ],
+    "footer": "Top 6 of 125 · Ruta N Valle del Software · Startco 2022. I designed and built the foundation of kivval.com.",
+    "link": {
+      "label": "Visit kivval.com",
+      "href": "https://kivval.com"
+    },
+    "coverPosition": "left top"
+  },
+  {
+    "slug": "disney-parks",
+    "name": "Disney Parks",
+    "tagline": "Keeping a core platform shipping, sprint after sprint.",
+    "role": "Senior PM, product and delivery",
+    "meta": "Globant · Dec 2025–present (on Disney since Jul 2022)",
+    "cardMeta": "Senior PM · Globant · 2022–present",
+    "cardResult": "10+ features per PI · releases every 2 weeks · team of 20 across 7 teams",
+    "layout": "wide",
+    "coverFlow": [
+      "Business needs",
+      "PRD in the repo",
+      "AI gap analysis",
+      "Tickets",
+      "Sprint",
+      "Release"
+    ],
+    "star": {
+      "situation": "Business requirements and technical criteria kept drifting apart, and every gap landed on dev and QA.",
+      "task": "Close that gap while keeping a platform the company depends on shipping predictably.",
+      "action": "Moved PRDs and acceptance criteria into an AI-assisted repo for instant gap analysis, and turned requirements into dev-ready tickets with AI.",
+      "result": "10+ features per PI, releases every 2 weeks, a team of 20 aligned with 7 teams."
+    },
+    "numbers": [
+      {
+        "value": "10+",
+        "label": "new features per PI (5 sprints)"
+      },
+      {
+        "value": "2 weeks",
+        "label": "release cycle"
+      },
+      {
+        "value": "20",
+        "label": "people on the team"
+      },
+      {
+        "value": "US$2M",
+        "label": "account P&L"
+      }
+    ],
+    "sections": [
+      {
+        "type": "steps",
+        "title": "How the work flows",
+        "items": [
+          "Business requirements",
+          "PRD in the monorepo",
+          "Architecture design",
+          "AI gap analysis",
+          "Task breakdown: product, delivery, tech",
+          "AI-drafted Jira tickets",
+          "Refinement and estimation",
+          "Capacity plan and sprint goals",
+          "Build, QA, E2E and UAT",
+          "Release and production monitoring"
+        ]
+      },
+      {
+        "type": "list",
+        "title": "Three decisions",
+        "items": [
+          "**Requirements and technical criteria in one repo.** Discrepancies show up before the sprint starts, not during QA.",
+          "**AI drafts the tickets, people review them.** Speed from AI with project context; accuracy from refinement.",
+          "**Other teams' testing time is part of our plan.** Every platform connects to this one, so their integration windows are built into ours."
+        ]
+      },
+      {
+        "type": "text",
+        "title": "What changed",
+        "body": "Business and technical acceptance criteria now match before work starts. Dev and QA get clear requirements, refinements run smoother, and the code reflects what the business actually asked for."
+      },
+      {
+        "type": "text",
+        "title": "Earlier on Disney (Jul 2022–May 2024)",
+        "body": "Led product and delivery for 5 teams (~25 people) in online ticketing and US parks. Designed the opportunities-management process for Globant's Disney PMs, later adopted as a standard across LATAM."
+      }
+    ],
+    "footer": "Details about the platform itself stay confidential."
+  },
+  {
+    "slug": "qiddiya-city",
+    "name": "Qiddiya City",
+    "tagline": "B2B ticketing for Saudi Arabia's new theme parks.",
+    "role": "Senior PM, product and delivery",
+    "meta": "Globant · May 2024–Dec 2025",
+    "cardMeta": "Senior PM · Globant · 2024–2025",
+    "cardResult": "MVP launched for 3 parks · team of 32",
+    "layout": "half",
+    "coverStat": {
+      "value": "3 parks",
+      "label": "on one B2B MVP"
+    },
+    "star": {
+      "situation": "Six Flags and Aquarabia in Qiddiya City needed travel agencies and partners to sell tickets, one by one or in bulk.",
+      "task": "Take a B2B ticketing platform from discovery to MVP launch.",
+      "action": "Mapped the partner journey and turned its pain points into a prioritized backlog, from onboarding to card linking, credit lines and checkout.",
+      "result": "MVP launched for three parks, with a team of 32."
+    },
+    "numbers": [
+      {
+        "value": "3",
+        "label": "parks on one MVP"
+      },
+      {
+        "value": "32",
+        "label": "people across web, backend, QA, UX and DevOps"
+      }
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "What we built",
+        "body": "Partner onboarding, payment methods and card linking, B2B credit lines for future purchases, checkout, and integrations with CRM, CMS, the ticketing system and the payment gateway. I gave on-site product guidance through UAT."
+      },
+      {
+        "type": "callout",
+        "title": "One decision",
+        "body": "The client wanted more features in the MVP. I made the rule explicit: new scope in means something comes out. We added the CMS integrations and richer image and video content for advertising, and gave up accessibility, performance and UI enhancements in the MVP to keep the launch date."
+      }
+    ]
+  },
+  {
+    "slug": "seven-parks",
+    "name": "Saudi Seven Parks",
+    "tagline": "Account management for a park ticketing platform.",
+    "role": "Senior PM, product and delivery",
+    "meta": "Globant · 2024",
+    "cardMeta": "Senior PM · Globant · 2024",
+    "cardResult": "Led the PRDs, dev and QA requirements, and UX/UI for mobile and web",
+    "layout": "half",
+    "coverStat": {
+      "value": "Mobile + web",
+      "label": "account management"
+    },
+    "short": true,
+    "sections": [
+      {
+        "type": "text",
+        "title": "My part",
+        "body": "Seven's platform sold tickets to its parks; I owned the account management section. I led the PRDs, translated them into clear requirements for dev and QA, and led the UX/UI team across mobile and web."
+      }
+    ]
+  },
+  {
+    "slug": "the-beer-world",
+    "name": "The Beer World",
+    "tagline": "A craft-beer marketplace for a global brewer.",
+    "role": "Product strategy and prototype",
+    "meta": "Strategy case study · European market · 2025",
+    "cardMeta": "Strategy case study · 2025",
+    "cardResult": "Earned a job offer · €491k MVP plan",
+    "layout": "half",
+    "cover": "assets/img/beer-prototype.jpg",
+    "coverAlt": "The Beer World prototype home page",
+    "star": {
+      "situation": "Craft breweries were taking share from a 150-year-old brewer, and most refused to be acquired.",
+      "task": "Find a way into craft beer without buying breweries or brewing new beers.",
+      "action": "Designed a two-sided marketplace, scoped a lean 8-month MVP, and built a working prototype with AI-assisted tools.",
+      "result": "Earned a job offer with this case."
+    },
+    "numbers": [
+      {
+        "value": "€491k",
+        "label": "MVP budget"
+      },
+      {
+        "value": "8 months",
+        "label": "to MVP"
+      },
+      {
+        "value": "3",
+        "label": "pilot countries"
+      },
+      {
+        "value": "€3M",
+        "label": "year-one revenue target"
+      }
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "The insight",
+        "body": "Craft brewers don't want to sell, because a corporate owner kills their authenticity. So Rook shouldn't own them; it should give them reach. The platform tells each brewer's story under their own name, and Rook enters craft beer through commissions and data instead of acquisitions."
+      },
+      {
+        "type": "list",
+        "title": "Who it's for",
+        "items": [
+          "**Beer lovers:** millennials who value origin and experience but lack time to find local breweries. The pain sits in exploring and in buying.",
+          "**Brewers:** dependent on social media, with no marketing budget, digital tools or data.",
+          "**Research plan:** surveys, interviews and focus groups in month 1, design validation in month 3, usability tests in months 6–8."
+        ]
+      },
+      {
+        "type": "images",
+        "items": [
+          {
+            "image": "assets/img/beer-journey.jpg",
+            "alt": "Customer journey map hypothesis for beer lovers",
+            "caption": "Journey map hypothesis for beer lovers."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": "Four decisions",
+        "items": [
+          "**Core experience before a full catalog.** Launch faster, accept some tech debt, let real users shape what's next.",
+          "**Pilot in the UK, Germany and France first,** the largest craft markets.",
+          "**Brewers handle logistics; no brewer CMS or CRM in the MVP.** Keeps the first release lean.",
+          "**Revenue beyond the 15% commission:** subscriptions, a brewer data dashboard, promoted placements."
+        ]
+      },
+      {
+        "type": "text",
+        "title": "Risks I'd test first",
+        "body": "Alcohol rules per country, delivery logistics and user acquisition cost."
+      }
+    ],
+    "footer": "Built solo: strategy, roadmap, cost model and prototype.",
+    "link": {
+      "label": "Open the prototype",
+      "href": "https://cloth-byte-28805317.figma.site/"
+    }
+  },
+  {
+    "slug": "lead-crm",
+    "name": "Lead CRM",
+    "tagline": "Turning campaign leads into a reusable customer base.",
+    "role": "Product lead",
+    "meta": "Pilot · 2024",
+    "cardMeta": "Product lead · Pilot · 2024",
+    "cardResult": "5 pilot clients · one clear lesson on tradeoffs",
+    "layout": "half",
+    "cover": "assets/img/crm-dashboard.jpg",
+    "coverAlt": "Lead CRM dashboard with clients per month and per sector",
+    "star": {
+      "situation": "A marketing agency's clients had nowhere to keep campaign leads for remarketing or email.",
+      "task": "Build a simple CRM so leads stay usable after the campaign ends.",
+      "action": "Built it in Bubble, then pivoted when the agency itself turned out to have no CRM: sign-up now asks, agency or business?",
+      "result": "Tested with 5 clients; stopped when the agency chose not to continue."
+    },
+    "sections": [
+      {
+        "type": "images",
+        "layout": "pair",
+        "items": [
+          {
+            "image": "assets/img/crm-signup.jpg",
+            "alt": "Sign-up screen asking whether you are a marketing agency or a business",
+            "caption": "The pivot, in the product: agency or business?"
+          },
+          {
+            "image": "assets/img/crm-new-client.jpg",
+            "alt": "New client form in the Lead CRM",
+            "caption": "Adding a lead."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "What I learned",
+        "body": "The agency wanted a robust platform in one month. When scope, time and budget don't match, the tradeoffs have to be explicit from day one: cut scope, add resources, or say it isn't feasible. Now that conversation comes first, before any build starts."
+      }
+    ],
+    "coverPosition": "left top"
+  }
+]
