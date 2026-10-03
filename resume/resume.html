@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sebastián Guerra · Resume</title>
+<style>
+@font-face { font-family: 'Manrope'; font-weight: 200 800; src: url('../assets/fonts/manrope-latin-wght-normal.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-weight: 200 800; src: url('../assets/fonts/manrope-latin-ext-wght-normal.woff2') format('woff2'); unicode-range: U+0100-02BA, U+1E00-1E9F; }
+@page { size: Letter; margin: 0.55in 0.6in; }
+:root { --ink: #16161A; --ink-2: #34343A; --quiet: #5E5E66; --line: #D9D9D5; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Manrope', Arial, sans-serif; color: var(--ink); font-size: 9.6pt; line-height: 1.42; }
+h1, h2, h3, p, ul { margin: 0; }
+header { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; padding-bottom: 10px; border-bottom: 1.5px solid var(--ink); }
+h1 { font-size: 22pt; font-weight: 800; letter-spacing: -0.02em; line-height: 1.05; }
+.role { font-size: 11pt; font-weight: 600; margin-top: 3px; }
+.contact { text-align: right; font-size: 8.6pt; color: var(--ink-2); line-height: 1.5; }
+.contact a { color: var(--ink); text-decoration: none; }
+.summary { margin-top: 10px; font-size: 9.8pt; color: var(--ink-2); }
+h2 { font-size: 8.4pt; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; margin-top: 14px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+.job { margin-top: 9px; break-inside: avoid; }
+.job__head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.job__head h3 { font-size: 10.2pt; font-weight: 700; }
+.job__head h3 span { font-weight: 500; color: var(--ink-2); }
+.dates { font-size: 8.6pt; color: var(--quiet); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.sub { font-size: 8.8pt; color: var(--quiet); margin-top: 1px; }
+ul { padding-left: 13px; margin-top: 4px; }
+li { margin-top: 2.5px; color: var(--ink-2); }
+li::marker { color: var(--quiet); }
+li b { color: var(--ink); font-weight: 700; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 24px; margin-top: 6px; }
+.grid p { color: var(--ink-2); }
+.grid p b { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<header>
+<div>
+<h1>Sebastián Guerra</h1>
+<p class="role">Senior Product Manager</p>
+</div>
+<div class="contact">
+Medellín, Colombia<br>
+<a href="mailto:sebastianguerram92@gmail.com">sebastianguerram92@gmail.com</a><br>
+<a href="https://sebastianguerra-product-portfolio.netlify.app">sebastianguerra-product-portfolio.netlify.app</a><br>
+<a href="https://www.linkedin.com/in/sebastian-guerra-546368136">linkedin.com/in/sebastian-guerra-546368136</a>
+</div>
+</header>
+
+<p class="summary">Product manager with 9 years building and shipping digital products across Latin America, the US, the Middle East and Australia. Co-founded Kivval and took it from a mobile MVP to break-even. At Globant I lead product for Disney Parks e-commerce and launched Qiddiya City's B2B ticketing MVP. I turn complex ideas into products people use: research first, explicit tradeoffs, predictable releases, and AI to keep business and technical requirements aligned.</p>
+
+<h2>Experience</h2>
+
+<div class="job">
+<div class="job__head"><h3>Globant <span>· Senior Product Manager / Product Owner, Disney Parks</span></h3><span class="dates">Dec 2025 – Present</span></div>
+<p class="sub">Core e-commerce platform (online ticketing, checkout, payments) that the client's other platforms depend on</p>
+<ul>
+<li><b>Self-serve for partners:</b> changed the partner UI so partners add and create products themselves instead of contacting the team.</li>
+<li><b>Requirements that match the code:</b> moved PRDs and acceptance criteria into an AI-assisted monorepo (Cursor), so gap analysis aligns business and technical criteria before each sprint; AI drafts Jira tickets, the team reviews them in refinement.</li>
+<li>Lead product definition, PI planning, backlog and roadmap for a team of 20, aligned with 7 interdependent teams and the client's annual OKRs.</li>
+<li>Ship 10+ new features per PI with releases every 2 weeks; plan integration windows for every dependent team; own E2E and UAT through production.</li>
+<li>Own the P&amp;L of a US$2M account: forecasting, margin and billing.</li>
+</ul>
+</div>
+
+<div class="job">
+<div class="job__head"><h3>Globant <span>· Senior Product Manager, Qiddiya City and Saudi Seven Parks</span></h3><span class="dates">May 2024 – Dec 2025</span></div>
+<ul>
+<li><b>Qiddiya City B2B ticketing:</b> took the platform for Six Flags Qiddiya and Aquarabia from discovery to MVP launch with a team of 32 (web, backend, QA, automation, UX, DevOps).</li>
+<li>Mapped the partner journey and shaped the catalog, search by park and date, and the full checkout: cart, card details, order summary and payment.</li>
+<li>Defined partner onboarding, payment methods and card linking, and B2B credit lines; integrated CRM, CMS, ticketing and payment gateway.</li>
+<li>Made scope tradeoffs explicit: added the CMS and advertising content the client asked for, deferred accessibility, performance and UI enhancements to hold the launch date.</li>
+<li><b>Saudi Seven Parks:</b> led account management for the ticketing platform, so users save personal details once and have them pre-filled at purchase. Wrote the PRDs and led UX/UI for mobile and web.</li>
+</ul>
+</div>
+
+<div class="job">
+<div class="job__head"><h3>Globant <span>· Product and Project Manager, Disney Parks e-commerce</span></h3><span class="dates">Jul 2022 – May 2024 · Jun – Dec 2021</span></div>
+<ul>
+<li>Led product and delivery for 5 teams (~25 people) in online ticketing and US parks: backlog, prioritization, Definition of Ready and Done.</li>
+<li>Designed the opportunities-management process for Globant's Disney PMs, later adopted as a standard across LATAM.</li>
+<li>Managed P&amp;L forecasting and contracts across fixed price, staff augmentation and T&amp;M.</li>
+</ul>
+</div>
+
+<div class="job">
+<div class="job__head"><h3>Kivval <span>· Co-founder and Product Lead</span></h3><span class="dates">2021 – 2025</span></div>
+<p class="sub">Car buying and ownership platform for Colombia. Full-time Jan – Jun 2022, then co-founder and partner.</p>
+<ul>
+<li><b>Results:</b> 35k people reached in year one, ~US$200k in vehicles sold (GMV), 0.5% visitor-to-buyer conversion, US$500 LTV over two years, break-even in 2024.</li>
+<li><b>Research-led pivots:</b> focus groups, interviews, surveys and store data (2.6M impressions, 635 downloads) moved the product from a mobile app to a web app, and the business from purchase commissions to ownership services.</li>
+<li>Cut what didn't retain users: the launch discount and the Kivval+ subscription. Built B2B partnerships for financing, insurance, designated drivers and car washes.</li>
+<li>Added used cars after 38% of active users asked for them; redesigned comparison, home and in-product SOAT payment across sprints.</li>
+<li>Top 6 of 125 in Ruta N's Valle del Software program; Startco 2022 with Bancolombia.</li>
+</ul>
+</div>
+
+<div class="job">
+<div class="job__head"><h3>ES Metals (Tecnoglass) <span>· Project Manager and R&amp;D Coordinator</span></h3><span class="dates">Aug 2019 – May 2021</span></div>
+<ul>
+<li>Created the R&amp;D area and ran discovery for new facade products, materials and suppliers on US projects, including the thermal insulation for 135 East in Manhattan, Doral Square in Miami and Weymouth near Boston.</li>
+<li>Led design, engineering, production, purchasing and logistics to deliver on schedule and budget.</li>
+</ul>
+</div>
+
+<div class="job">
+<div class="job__head"><h3>Metrix Group, Melbourne <span>· Industrial Design Team Lead</span></h3><span class="dates">Aug 2017 – Jul 2019</span></div>
+<ul>
+<li>Cut change-order time from 45 to 15 minutes with Lean; led a team of 6 across design, programming and production.</li>
+<li>Earlier: 3D designer and visualizer in Melbourne and Colombia (interiors, commercial spaces, facades).</li>
+</ul>
+</div>
+
+<h2>Selected projects</h2>
+<ul>
+<li><b>The Beer World (2025):</b> product strategy and working prototype for a two-sided craft-beer marketplace; 8-month MVP plan with a €491k budget. Earned a job offer.</li>
+<li><b>Lead CRM (2024, TOM Consulting):</b> built in Bubble for a marketing agency; pivoted to serve the agency itself; piloted with 5 clients.</li>
+</ul>
+
+<h2>Skills and education</h2>
+<div class="grid">
+<p><b>Product:</b> discovery, user research, PRDs, roadmaps, prioritization, business cases, go-to-market, P&amp;L</p>
+<p><b>Delivery:</b> SAFe, Scrum, Kanban, PI planning, risk management, Jira, Confluence</p>
+<p><b>Tools:</b> Figma, Cursor and AI-assisted workflows, Bubble, Rhinoceros, V-Ray</p>
+<p><b>Languages:</b> Spanish (native), English (upper B2)</p>
+<p><b>Certifications:</b> SAFe 5 PO/PM, Certified Scrum Master (2022), Lean Six Sigma Green Belt (2018), Product Management, Colectivo 23 (2026)</p>
+<p><b>Education:</b> BS Product Design Engineering, EAFIT University (2016); Certificate IV Marketing and Communications, Australian Institute of Technology (2018)</p>
+</div>
+
+</body>
+</html>

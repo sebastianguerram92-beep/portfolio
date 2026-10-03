@@ -6,7 +6,7 @@
     "role": "Co-founder and product lead",
     "meta": "Colombia · 2021–2025",
     "cardMeta": "Co-founder and product lead · 2021–2025",
-    "cardResult": "35k people in year one · ~US$200k in sales · break-even in 2024",
+    "cardResult": "35k people in year one · ~US$200k GMV · break-even in 2024",
     "layout": "wide",
     "cover": "assets/img/kivval-web.jpg",
     "coverAlt": "Kivval web app home page with car search and ownership steps",
@@ -14,7 +14,7 @@
       "situation": "Buying a car meant comparing dealers one by one and guessing the real cost of owning it.",
       "task": "One platform that shows the full cost before you buy, and stays with you after.",
       "action": "Shipped a mobile MVP, listened, moved to web, refocused on ownership services.",
-      "result": "35k people in year one, ~US$200k in sales, break-even in 2024."
+      "result": "35k people in year one, ~US$200k in vehicles sold (GMV), break-even in 2024."
     },
     "numbers": [
       {
@@ -23,7 +23,7 @@
       },
       {
         "value": "~US$200k",
-        "label": "in vehicle sales"
+        "label": "in vehicles sold (GMV)"
       },
       {
         "value": "0.5%",
@@ -139,7 +139,7 @@
     "star": {
       "situation": "Business requirements and technical criteria kept drifting apart, and every gap landed on dev and QA.",
       "task": "Close that gap while keeping a platform the company depends on shipping predictably.",
-      "action": "Moved PRDs and acceptance criteria into an AI-assisted repo for instant gap analysis, and turned requirements into dev-ready tickets with AI.",
+      "action": "Changed the partner UI so partners add products themselves, and moved PRDs into an AI-assisted repo so requirements and technical criteria match before each sprint.",
       "result": "10+ features per PI, releases every 2 weeks, a team of 20 aligned with 7 teams."
     },
     "numbers": [
@@ -179,8 +179,9 @@
       },
       {
         "type": "list",
-        "title": "Three decisions",
+        "title": "Four decisions",
         "items": [
+          "**Partners create their own products.** I changed the UI so partners add and create products themselves, instead of contacting our team every time.",
           "**Requirements and technical criteria in one repo.** Discrepancies show up before the sprint starts, not during QA.",
           "**AI drafts the tickets, people review them.** Speed from AI with project context; accuracy from refinement.",
           "**Other teams' testing time is part of our plan.** Every platform connects to this one, so their integration windows are built into ours."
@@ -206,7 +207,7 @@
     "role": "Senior PM, product and delivery",
     "meta": "Globant · May 2024–Dec 2025",
     "cardMeta": "Senior PM · Globant · 2024–2025",
-    "cardResult": "MVP launched for 3 parks · team of 32",
+    "cardResult": "MVP launched for 3 parks · checkout, catalog and search · team of 32",
     "layout": "half",
     "coverBg": "assets/img/bg-qiddiya.jpg",
     "coverStat": {
@@ -216,7 +217,7 @@
     "star": {
       "situation": "Six Flags and Aquarabia in Qiddiya City needed travel agencies and partners to sell tickets, one by one or in bulk.",
       "task": "Take a B2B ticketing platform from discovery to MVP launch.",
-      "action": "Mapped the partner journey and turned its pain points into a prioritized backlog, from onboarding to card linking, credit lines and checkout.",
+      "action": "Mapped the partner journey, then shaped the catalog, search by site and date, and the full checkout, from cart to card details, order summary and payment.",
       "result": "MVP launched for three parks, with a team of 32."
     },
     "numbers": [
@@ -231,9 +232,14 @@
     ],
     "sections": [
       {
-        "type": "text",
-        "title": "What we built",
-        "body": "Partner onboarding, payment methods and card linking, B2B credit lines for future purchases, checkout, and integrations with CRM, CMS, the ticketing system and the payment gateway. I gave on-site product guidance through UAT."
+        "type": "list",
+        "title": "What I shaped",
+        "items": [
+          "**Checkout:** adding to the cart, uploading card details, a summary of what you are about to buy, and payment.",
+          "**Catalog and search:** partners find tickets by park and by date.",
+          "**Partner accounts:** onboarding, payment methods and card linking, and B2B credit lines for future purchases.",
+          "**Integrations:** CRM, CMS, the ticketing system and the payment gateway. I gave on-site product guidance through UAT."
+        ]
       },
       {
         "type": "callout",
@@ -249,19 +255,24 @@
     "role": "Senior PM, product and delivery",
     "meta": "Globant · 2024",
     "cardMeta": "Senior PM · Globant · 2024",
-    "cardResult": "Led the PRDs, dev and QA requirements, and UX/UI for mobile and web",
+    "cardResult": "Details saved once, pre-filled at checkout · mobile and web",
     "layout": "half",
     "coverBg": "assets/img/bg-seven.jpg",
     "coverStat": {
-      "value": "Mobile + web",
-      "label": "account management"
+      "value": "Saved once",
+      "label": "pre-filled at every purchase"
     },
     "short": true,
     "sections": [
       {
         "type": "text",
         "title": "My part",
-        "body": "Seven's platform sold tickets to its parks; I owned the account management section. I led the PRDs, translated them into clear requirements for dev and QA, and led the UX/UI team across mobile and web."
+        "body": "Seven's platform sold tickets to its parks; I led the account management section. Users edit their name, surname, date of birth, email, phone and other details in one place, so they are already filled in when they buy."
+      },
+      {
+        "type": "text",
+        "title": "How I led it",
+        "body": "I wrote the PRDs, translated them into clear requirements for dev and QA, and led the UX/UI team across mobile and web."
       }
     ]
   },

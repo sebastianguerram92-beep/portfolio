@@ -49,3 +49,7 @@ npx serve dist
 Connect this repository to Netlify (Add new site → Import from Git). Build command and publish folder are already set in `netlify.toml`. Then add your domain under Domain settings and update `url` in `content/site.json`.
 
 Font: Manrope, self-hosted (SIL Open Font License, see `assets/fonts/OFL-LICENSE.txt`).
+
+## Resume
+
+The PDF linked from the site is `assets/resume-sebastian-guerra.pdf`. Its source is `resume/resume.html`: edit it, open it in Chrome, and use Print → Save as PDF (Letter, no margins change, background graphics on) to replace the PDF.

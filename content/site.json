@@ -10,23 +10,102 @@
   "headlineStrong": "I build products",
   "subline": "I turn complex ideas into products people use, and I make sure they ship.",
   "description": "Sebastián Guerra, Senior Product Manager. I build products from zero to launch: Kivval, Disney Parks, Qiddiya City and more.",
-  "ledFor": ["Disney Parks", "Qiddiya City", "Saudi Seven Parks", "Six Flags Qiddiya", "Aquarabia", "Kivval"],
+  "ledFor": [
+    "Disney Parks",
+    "Qiddiya City",
+    "Saudi Seven Parks",
+    "Six Flags Qiddiya",
+    "Aquarabia",
+    "Kivval"
+  ],
   "howIWork": [
-    { "icon": "target", "title": "Align first", "text": "Vision, roadmap and roles agreed before anything gets built." },
-    { "icon": "chat", "title": "Listen to users", "text": "Interviews, surveys and real data decide what comes next." },
-    { "icon": "split", "title": "Make tradeoffs explicit", "text": "New scope in means something comes out. Said early, said clearly." },
-    { "icon": "chart", "title": "Ship and measure", "text": "Predictable releases, and numbers that show what changed." }
+    {
+      "icon": "target",
+      "title": "Align first",
+      "text": "Vision, roadmap and roles agreed before anything gets built.",
+      "see": {
+        "slug": "kivval",
+        "label": "Kivval"
+      }
+    },
+    {
+      "icon": "chat",
+      "title": "Listen to users",
+      "text": "Interviews, surveys and real data decide what comes next.",
+      "see": {
+        "slug": "kivval",
+        "label": "Kivval"
+      }
+    },
+    {
+      "icon": "split",
+      "title": "Make tradeoffs explicit",
+      "text": "New scope in means something comes out. Said early, said clearly.",
+      "see": {
+        "slug": "qiddiya-city",
+        "label": "Qiddiya City"
+      }
+    },
+    {
+      "icon": "chart",
+      "title": "Ship and measure",
+      "text": "Predictable releases, and numbers that show what changed.",
+      "see": {
+        "slug": "disney-parks",
+        "label": "Disney Parks"
+      }
+    }
   ],
   "beforeSoftware": {
     "eyebrow": "Before software",
     "title": "Discovery started on building facades",
     "text": "At ES Metals (Tecnoglass), 2019–2021, I created the R&D area and searched for new products, materials and suppliers for facade projects in the US.",
     "items": [
-      { "image": "assets/img/facade-east135.jpg", "alt": "135 East building facade in Manhattan", "title": "135 East · Manhattan", "text": "Found the thermal insulation for a metal facade that holds from summer to winter, and stands up to wind and corrosion." },
-      { "image": "assets/img/facade-doral.jpg", "alt": "Doral Square mall facade in Miami", "title": "Doral Square · Miami", "text": "Mall facade delivered with materials sourced through R&D discovery." },
-      { "image": "assets/img/facade-weymouth.jpg", "alt": "Weymouth building facade near Boston", "title": "Weymouth · Boston", "text": "Facade delivered with materials sourced through R&D discovery." }
+      {
+        "image": "assets/img/facade-east135.jpg",
+        "alt": "135 East building facade in Manhattan",
+        "title": "135 East · Manhattan",
+        "text": "Found the thermal insulation for a metal facade that holds from summer to winter, and stands up to wind and corrosion."
+      },
+      {
+        "image": "assets/img/facade-doral.jpg",
+        "alt": "Doral Square mall facade in Miami",
+        "title": "Doral Square · Miami",
+        "text": "Mall facade delivered with materials sourced through R&D discovery."
+      },
+      {
+        "image": "assets/img/facade-weymouth.jpg",
+        "alt": "Weymouth building facade near Boston",
+        "title": "Weymouth · Boston",
+        "text": "Facade delivered with materials sourced through R&D discovery."
+      }
     ],
-    "footnote": "Before that, I led an industrial design team in Melbourne and cut change-order time from 45 to 15 minutes with Lean."
+    "footnote": "Before that, I led an industrial design team in Melbourne and cut change-order time from 45 to 15 minutes with Lean.",
+    "renders": {
+      "title": "Facade concepts I designed and rendered",
+      "items": [
+        {
+          "image": "assets/img/design-facade1.jpg",
+          "alt": "Rendered commercial building wrapped in metal panels",
+          "caption": "Metal panel facade"
+        },
+        {
+          "image": "assets/img/design-facade3.jpg",
+          "alt": "Rendered building with a perforated white facade",
+          "caption": "Perforated facade"
+        },
+        {
+          "image": "assets/img/design-facade2.jpg",
+          "alt": "Close-up render of a corten steel facade structure",
+          "caption": "Corten steel detail"
+        },
+        {
+          "image": "assets/img/design-facade4.jpg",
+          "alt": "Rendered laser-cut metal canopy seen from below",
+          "caption": "Laser-cut canopy"
+        }
+      ]
+    }
   },
   "contact": {
     "title": "Building something that needs to ship?",
@@ -37,23 +116,44 @@
     "title": "Design and 3D work",
     "intro": "Before product management, I designed spaces and visualized them for clients. In every image here I designed the space, modeled it in Rhinoceros and rendered it in V-Ray.",
     "process": [
-      { "title": "1 · Understand", "text": "Research the need and the problem behind it." },
-      { "title": "2 · Co-create", "text": "Ideate with the client until the concept feels right." },
-      { "title": "3 · Detail", "text": "3D model, renders, technical drawings and production." }
+      {
+        "title": "1 · Understand",
+        "text": "Research the need and the problem behind it."
+      },
+      {
+        "title": "2 · Co-create",
+        "text": "Ideate with the client until the concept feels right."
+      },
+      {
+        "title": "3 · Detail",
+        "text": "3D model, renders, technical drawings and production."
+      }
     ],
     "groups": [
       {
         "title": "Interiors",
         "columns": "wide",
         "items": [
-          { "image": "assets/img/design-kitchen.jpg", "alt": "Rendered kitchen with island and bar stools", "caption": "Kitchen" },
-          { "image": "assets/img/design-bedroom.jpg", "alt": "Rendered bedroom with wardrobe and mountain view", "caption": "Bedroom" },
-          { "image": "assets/img/design-living.jpg", "alt": "Rendered living and dining room with a map mural", "caption": "Living and dining" },
-          { "image": "assets/img/design-dining.jpg", "alt": "Rendered dining area with wood table and pendant lamps", "caption": "Dining" }
-        ],
-        "links": [
-          { "label": "Loft (360°)", "href": "http://sky.easypano.com/panoramic-images/loft-atelier-14-76639.html" },
-          { "label": "Castaña Diseño (360°)", "href": "http://sky.easypano.com/panoramic-images/casta%C3%B1a-dise%C3%B1o-80021.html" }
+          {
+            "image": "assets/img/design-kitchen.jpg",
+            "alt": "Rendered kitchen with island and bar stools",
+            "caption": "Kitchen"
+          },
+          {
+            "image": "assets/img/design-bedroom.jpg",
+            "alt": "Rendered bedroom with wardrobe and mountain view",
+            "caption": "Bedroom"
+          },
+          {
+            "image": "assets/img/design-living.jpg",
+            "alt": "Rendered living and dining room with a map mural",
+            "caption": "Living and dining"
+          },
+          {
+            "image": "assets/img/design-dining.jpg",
+            "alt": "Rendered dining area with wood table and pendant lamps",
+            "caption": "Dining"
+          }
         ]
       },
       {
@@ -61,9 +161,21 @@
         "text": "Lola Melona, a Colombian restaurant in Docklands, Melbourne: I worked with the owners from the first concept through construction.",
         "columns": "three",
         "items": [
-          { "image": "assets/img/design-lola.jpg", "alt": "Lola Melona restaurant counter, half sketch and half render", "caption": "Lola Melona, sketch to render" },
-          { "image": "assets/img/design-bar.jpg", "alt": "Rendered restaurant bar with stools and pendant lights", "caption": "Restaurant bar" },
-          { "image": "assets/img/design-kids.jpg", "alt": "Rendered colorful kids learning space", "caption": "Kids' learning space" }
+          {
+            "image": "assets/img/design-lola.jpg",
+            "alt": "Lola Melona restaurant counter, half sketch and half render",
+            "caption": "Lola Melona, sketch to render"
+          },
+          {
+            "image": "assets/img/design-bar.jpg",
+            "alt": "Rendered restaurant bar with stools and pendant lights",
+            "caption": "Restaurant bar"
+          },
+          {
+            "image": "assets/img/design-kids.jpg",
+            "alt": "Rendered colorful kids learning space",
+            "caption": "Kids' learning space"
+          }
         ]
       },
       {
@@ -71,13 +183,35 @@
         "text": "Facade concepts that later led me into R&D for real buildings.",
         "columns": "wide",
         "items": [
-          { "image": "assets/img/design-door.jpg", "alt": "Rendered entrance with a tall wood pivot door in a concrete wall", "caption": "Entrance, 3D modeling and image editing", "span": true },
-          { "image": "assets/img/design-facade1.jpg", "alt": "Rendered commercial building wrapped in metal panels", "caption": "Metal panel facade" },
-          { "image": "assets/img/design-facade3.jpg", "alt": "Rendered building with a perforated white facade", "caption": "Perforated facade" },
-          { "image": "assets/img/design-facade2.jpg", "alt": "Close-up render of a corten steel facade structure", "caption": "Corten steel detail" },
-          { "image": "assets/img/design-facade4.jpg", "alt": "Rendered laser-cut metal canopy seen from below", "caption": "Laser-cut canopy" }
+          {
+            "image": "assets/img/design-door.jpg",
+            "alt": "Rendered entrance with a tall wood pivot door in a concrete wall",
+            "caption": "Entrance, 3D modeling and image editing",
+            "span": true
+          },
+          {
+            "image": "assets/img/design-facade1.jpg",
+            "alt": "Rendered commercial building wrapped in metal panels",
+            "caption": "Metal panel facade"
+          },
+          {
+            "image": "assets/img/design-facade3.jpg",
+            "alt": "Rendered building with a perforated white facade",
+            "caption": "Perforated facade"
+          },
+          {
+            "image": "assets/img/design-facade2.jpg",
+            "alt": "Close-up render of a corten steel facade structure",
+            "caption": "Corten steel detail"
+          },
+          {
+            "image": "assets/img/design-facade4.jpg",
+            "alt": "Rendered laser-cut metal canopy seen from below",
+            "caption": "Laser-cut canopy"
+          }
         ]
       }
     ]
-  }
+  },
+  "resume": "assets/resume-sebastian-guerra.pdf"
 }

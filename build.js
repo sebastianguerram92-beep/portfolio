@@ -69,6 +69,7 @@ function nav(base, { back } = {}) {
 <a href="${base}index.html#how">How I work</a>
 <a href="${base}design.html">Design</a>
 <a href="${base}index.html#contact">Contact</a>
+<a href="${base}${esc(site.resume)}" class="nav__resume">Resume</a>
 </div>
 </nav>`;
 }
@@ -80,6 +81,7 @@ function contact() {
 <div class="btns">
 <a class="btn btn--dark" href="mailto:${esc(site.email)}">Email me</a>
 <a class="btn" href="${esc(site.linkedin)}" rel="noopener">LinkedIn</a>
+<a class="btn" href="${esc(site.resume)}">Resume (PDF)</a>
 </div>
 <div class="footer"><span>© ${year} ${esc(site.name)}</span><a href="mailto:${esc(site.email)}">${esc(site.email)}</a></div>
 </section>`;
@@ -137,8 +139,8 @@ ${nav(base)}
 </div>
 </section>
 
-<section class="panel panel--tight" aria-label="Products I've led for">
-<p class="eyebrow">Products I've led for</p>
+<section class="panel panel--tight" aria-label="Where I've built products">
+<p class="eyebrow">Where I've built products</p>
 <ul class="names">${site.ledFor.map(n => `<li>${esc(n)}</li>`).join('')}</ul>
 </section>
 
@@ -161,13 +163,17 @@ ${projects.map(p => card(p, base)).join('\n')}
 <div class="photo-grid">
 ${bs.items.map(i => `<div class="photo-card"><img src="${esc(i.image)}" alt="${esc(i.alt)}" loading="lazy"><div><h3>${esc(i.title)}</h3><p>${esc(i.text)}</p></div></div>`).join('\n')}
 </div>
-<p class="footnote">${esc(bs.footnote)} <a href="design.html">See my design and 3D work →</a></p>
+${bs.renders ? `<div class="renders">
+<div class="renders__head"><h3>${esc(bs.renders.title)}</h3><a href="design.html">See all design and 3D work →</a></div>
+<div class="renders__grid">${bs.renders.items.map(r => `<figure><img src="${esc(r.image)}" alt="${esc(r.alt)}" loading="lazy"><figcaption>${esc(r.caption)}</figcaption></figure>`).join('')}</div>
+</div>` : ''}
+<p class="footnote">${esc(bs.footnote)}</p>
 </section>
 
 <section id="how" class="panel">
 <h2 class="h2 center">How I work</h2>
 <div class="how">
-${site.howIWork.map(h => `<div class="how__item">${icon(h.icon)}<h3>${esc(h.title)}</h3><p>${esc(h.text)}</p></div>`).join('\n')}
+${site.howIWork.map(h => `<div class="how__item">${icon(h.icon)}<h3>${esc(h.title)}</h3><p>${esc(h.text)}</p>${h.see ? `<a class="how__see" href="work/${esc(h.see.slug)}.html">See: ${esc(h.see.label)} →</a>` : ''}</div>`).join('\n')}
 </div>
 </section>
 
@@ -225,8 +231,15 @@ ${(p.sections || []).map(s => section(s, base)).join('\n')}
 ${foot}
 </div>
 </section>
-<a class="next" href="${next.slug}.html"><span>Next case</span><b>${esc(next.name)} →</b></a>`;
+${nextBand(next, base)}`;
   return layout({ title: `${p.name}: ${p.tagline.replace(/\.$/, '')} · ${site.name}`, description: `${p.name} case study by ${site.name}. ${p.tagline}`, base, body, pagePath: `work/${p.slug}.html`, image: p.cover });
+}
+
+// Next-case band: the next project's photo, blurred, behind the link.
+function nextBand(next, base) {
+  const img = next.coverBg || next.cover;
+  const bg = img ? `<img class="cover-bg" src="${base}${esc(img)}" alt="" aria-hidden="true" loading="lazy">` : '';
+  return `<a class="next${img ? ' has-bg' : ''}" href="${next.slug}.html">${bg}<span>Next case</span><b>${esc(next.name)} →</b></a>`;
 }
 
 // ---------- design page ----------
