@@ -88,8 +88,11 @@ function contact() {
 // ---------- cards ----------
 function cardMedia(p, base) {
   if (p.cover) return `<div class="card__media"><img src="${base}${esc(p.cover)}" alt="${esc(p.coverAlt)}" loading="lazy"${p.coverPosition ? ` style="object-position: ${esc(p.coverPosition)}"` : ''}></div>`;
-  if (p.coverFlow) return `<div class="card__media card__media--flow"><ol class="cover-flow" aria-label="How the work flows">${p.coverFlow.map(s => `<li><span>${esc(s)}</span></li>`).join('')}</ol></div>`;
-  if (p.coverStat) return `<div class="card__media"><div class="cover-stat"><b>${esc(p.coverStat.value)}</b><span>${esc(p.coverStat.label)}</span></div></div>`;
+  // Optional blurred photo behind the text covers.
+  const bg = p.coverBg ? `<img class="cover-bg" src="${base}${esc(p.coverBg)}" alt="" aria-hidden="true" loading="lazy">` : '';
+  const bgClass = p.coverBg ? ' has-bg' : '';
+  if (p.coverFlow) return `<div class="card__media card__media--flow${bgClass}">${bg}<ol class="cover-flow" aria-label="How the work flows">${p.coverFlow.map(s => `<li><span>${esc(s)}</span></li>`).join('')}</ol></div>`;
+  if (p.coverStat) return `<div class="card__media${bgClass}">${bg}<div class="cover-stat"><b>${esc(p.coverStat.value)}</b><span>${esc(p.coverStat.label)}</span></div></div>`;
   return `<div class="card__media"></div>`;
 }
 
@@ -130,7 +133,7 @@ ${nav(base)}
 <a class="btn" href="mailto:${esc(site.email)}">Get in touch</a>
 </div>
 </div>
-<img class="hero__photo" src="${esc(site.photo)}" alt="Portrait of ${esc(site.name)}" width="800" height="920">
+<img class="hero__photo" src="${esc(site.photo)}" alt="Portrait of ${esc(site.name)}" width="880" height="1247">
 </div>
 </section>
 

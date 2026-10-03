@@ -127,6 +127,7 @@
     "cardMeta": "Senior PM · Globant · 2022–present",
     "cardResult": "10+ features per PI · releases every 2 weeks · team of 20 across 7 teams",
     "layout": "wide",
+    "coverBg": "assets/img/bg-disney.jpg",
     "coverFlow": [
       "Business needs",
       "PRD in the repo",
@@ -207,6 +208,7 @@
     "cardMeta": "Senior PM · Globant · 2024–2025",
     "cardResult": "MVP launched for 3 parks · team of 32",
     "layout": "half",
+    "coverBg": "assets/img/bg-qiddiya.jpg",
     "coverStat": {
       "value": "3 parks",
       "label": "on one B2B MVP"
@@ -249,6 +251,7 @@
     "cardMeta": "Senior PM · Globant · 2024",
     "cardResult": "Led the PRDs, dev and QA requirements, and UX/UI for mobile and web",
     "layout": "half",
+    "coverBg": "assets/img/bg-seven.jpg",
     "coverStat": {
       "value": "Mobile + web",
       "label": "account management"
