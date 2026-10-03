@@ -225,3 +225,11 @@ figcaption { font-size: 14px; line-height: 1.5; color: var(--quiet); padding-lef
 
 /* Every project card is a full-width row, same height as Kivval */
 .card--wide .card__media { align-self: stretch; }
+
+/* Card links: the whole card opens the case; an outside link sits on top */
+.card { position: relative; }
+.card__links { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.card__more { text-decoration: none; color: var(--ink); }
+.card__stretch::after { content: ""; position: absolute; inset: 0; border-radius: var(--radius-card); }
+.card__ext { position: relative; z-index: 1; color: var(--quiet); }
+.card__ext:hover, .card__more:hover { color: var(--ink); text-decoration: underline; }

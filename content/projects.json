@@ -116,7 +116,11 @@
       "label": "Visit kivval.com",
       "href": "https://kivval.com"
     },
-    "coverPosition": "left top"
+    "coverPosition": "left top",
+    "homeLink": {
+      "label": "Visit kivval.com",
+      "href": "https://kivval.com"
+    }
   },
   {
     "slug": "disney-parks",
@@ -354,6 +358,10 @@
     ],
     "footer": "Built solo: strategy, roadmap, cost model and prototype.",
     "link": {
+      "label": "Open the prototype",
+      "href": "https://cloth-byte-28805317.figma.site/"
+    },
+    "homeLink": {
       "label": "Open the prototype",
       "href": "https://cloth-byte-28805317.figma.site/"
     }

@@ -107,14 +107,17 @@ function card(p, base) {
 <h3 class="card__title">${esc(p.name)}</h3>
 <p class="card__tagline">${esc(p.tagline)}</p>
 <p class="card__result">${esc(p.cardResult)}</p>
-${wide ? '<span class="card__more">Read the case →</span>' : ''}
+<div class="card__links">
+<a class="card__more card__stretch" href="${base}work/${p.slug}.html">Read the case →</a>
+${p.homeLink ? `<a class="card__more card__ext" href="${esc(p.homeLink.href)}" rel="noopener">${esc(p.homeLink.label)} ↗</a>` : ''}
+</div>
 </div>`;
   const media = cardMedia(p, base);
   // Wide cards alternate image left / image right.
   const flip = wide && p._wideIndex % 2 === 1;
-  return `<a class="card${wide ? ' card--wide' : ''}" href="${base}work/${p.slug}.html">
+  return `<article class="card${wide ? ' card--wide' : ''}">
 ${flip ? body + media : media + body}
-</a>`;
+</article>`;
 }
 
 // ---------- home ----------
