@@ -205,6 +205,122 @@
     "footer": "Details about the platform itself stay confidential."
   },
   {
+    "slug": "acero-y-concreto",
+    "name": "SGF · Acero y Concreto",
+    "tagline": "One cash view for a group of companies.",
+    "role": "Product lead",
+    "meta": "In progress · Colombia · 2026",
+    "cardMeta": "Product lead · In progress · 2026",
+    "cardResult": "Replacing a 15-year-old Excel · 3 of 4 sprints delivered · go-live Oct 15",
+    "layout": "wide",
+    "cover": "assets/img/sgf-review.jpg",
+    "coverAlt": "SGF review screen: income and expenses grouped by cost center, with totals and a review mark per row",
+    "coverPosition": "left top",
+    "star": {
+      "situation": "A construction group ran the cash of several companies from one Excel built over 15 years. It took about 5 minutes to open, and duplicate or misfiled payments slipped through.",
+      "task": "Replace it with a simple system that keeps each company's money apart and shows real balances by cost center.",
+      "action": "We built our own tool instead of adapting single-company accounting software, made every entry start with the company so a payment can't land in the wrong project, and kept accounting out of scope.",
+      "result": "3 of 4 sprints delivered · go-live Oct 15, 2026"
+    },
+    "numbers": [
+      {
+        "value": "15 years",
+        "label": "age of the Excel it replaces"
+      },
+      {
+        "value": "~5 min",
+        "label": "to open that Excel"
+      },
+      {
+        "value": "3 of 4",
+        "label": "sprints delivered"
+      },
+      {
+        "value": "~300",
+        "label": "invoices a month still on paper"
+      }
+    ],
+    "sections": [
+      {
+        "type": "images",
+        "layout": "pair",
+        "items": [
+          {
+            "image": "assets/img/sgf-expense.jpg",
+            "alt": "New expense form: company first, then cost center and bank account filtered to it",
+            "caption": "Company first: cost center and bank account only show what belongs to it."
+          },
+          {
+            "image": "assets/img/sgf-reports.jpg",
+            "alt": "Reports matrix with income, expenses and margin by company and cost center",
+            "caption": "Balances by company and cost center, not a flat list."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": "The insight",
+        "body": "Most errors in the Excel weren't typos. They came from being able to pair any payment with any company, cost center or bank account. Once every form starts with the company and filters the rest, that kind of error can't happen, so the monthly review can focus on what's left: duplicates."
+      },
+      {
+        "type": "stats",
+        "title": "How I listened",
+        "items": [
+          {
+            "value": "13",
+            "label": "changes from the first demo, all built in the next sprint"
+          },
+          {
+            "value": "1 session",
+            "label": "watching the admin review a month, which became the review screen"
+          },
+          {
+            "value": "Live test",
+            "label": "with the treasurer: saving keeps her on a clean form for the next entry"
+          }
+        ]
+      },
+      {
+        "type": "beforeAfter",
+        "title": "How we iterated",
+        "items": [
+          {
+            "before": "Cost center code typed by hand",
+            "after": "pick the company, the system links the rest"
+          },
+          {
+            "before": "Bank list fixed in code",
+            "after": "the client adds banks in settings"
+          },
+          {
+            "before": "Deleting a supplier erased it",
+            "after": "hidden, but kept for audits"
+          },
+          {
+            "before": "A flat list of movements",
+            "after": "balances by cost center, with a review mark per row"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "title": "Four decisions",
+        "items": [
+          "**Build, not buy.** Alegra, Siigo and Xero are made for one company's accounting. The group needed cash control across several companies, with its own categories.",
+          "**Not an accounting system.** One running number per record, no ledger rules. The client said it plainly: this platform isn't accounting.",
+          "**Paper to digital in two steps.** Accountants handle ~300 invoices a month on paper, so first the system prints the format they already use.",
+          "**Hide columns, don't cut them.** The admin wanted all the data, so each user hides what they don't need."
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "What I learned",
+        "body": "The hard part wasn't the software. It was moving people off a tool they built themselves, so every step keeps something familiar until the new way earns trust."
+      }
+    ],
+    "footer": "Client data is confidential; screenshots use test data."
+  },
+  {
     "slug": "qiddiya-city",
     "name": "Qiddiya City",
     "tagline": "B2B ticketing for Saudi Arabia's new theme parks.",
