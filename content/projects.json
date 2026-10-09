@@ -318,7 +318,15 @@
         "body": "The hard part wasn't the software. It was moving people off a tool they built themselves, so every step keeps something familiar until the new way earns trust."
       }
     ],
-    "footer": "Client data is confidential; screenshots use test data."
+    "footer": "Client data is confidential; screenshots use test data.",
+    "link": {
+      "label": "Visit the live system",
+      "href": "https://sgfaceroyconcreto.digital/login"
+    },
+    "homeLink": {
+      "label": "Visit the live system",
+      "href": "https://sgfaceroyconcreto.digital/login"
+    }
   },
   {
     "slug": "qiddiya-city",
