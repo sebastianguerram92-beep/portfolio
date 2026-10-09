@@ -11,9 +11,9 @@
     "cover": "assets/img/kivval-web.jpg",
     "coverAlt": "Kivval web app home page with car search and ownership steps",
     "star": {
-      "situation": "Buying a car meant comparing dealers one by one and guessing the real cost of owning it.",
-      "task": "One platform that shows the full cost before you buy, and stays with you after.",
-      "action": "Shipped a mobile MVP, listened, moved to web, refocused on ownership services.",
+      "situation": "Buying a car in Colombia meant visiting dealers one by one and guessing what the car would really cost to own.",
+      "task": "Build one place that shows the full cost before you buy, and stays useful after.",
+      "action": "We launched a mobile MVP, saw the app itself was the barrier, moved to the web, and shifted from buying to ownership services.",
       "result": "35k people in year one, ~US$200k in vehicles sold (GMV), break-even in 2024."
     },
     "numbers": [
@@ -99,16 +99,16 @@
         "type": "list",
         "title": "Four decisions",
         "items": [
-          "**Mobile to web app (2024).** Store data and research both showed download friction.",
-          "**Cut the launch discount.** It drove first purchases, not loyalty.",
+          "**Mobile app to web app (2024).** Store data and research both showed people dropped off at the download.",
+          "**Cut the launch discount.** It drove first purchases, not loyalty, so we moved that budget to partner benefits.",
           "**Built B2B partnerships** for financing, insurance, designated drivers and car washes.",
-          "**Cut Kivval+.** The US$5/month plan didn't get the engagement it needed."
+          "**Cut Kivval+.** The US$5/month plan (washes, parking, designated drivers) didn't get the engagement it needed."
         ]
       },
       {
         "type": "callout",
         "title": "What I learned",
-        "body": "Kivval needed a stronger, AI-driven platform and better marketing. My co-founders wanted to stay closer to a dealership model, and we parted ways in 2025. When leadership isn't aligned on the vision, effort alone won't save a product. Now I align vision, roadmap and roles before anything gets built."
+        "body": "I wanted Kivval to become an AI-driven tech company with stronger marketing; my co-founders wanted to stay closer to a dealership model. We saw different futures and parted ways in 2025. Effort can't make up for a vision the leaders don't share, so now I align vision, roadmap and roles before anything gets built."
       }
     ],
     "footer": "Top 6 of 125 · Ruta N Valle del Software · Startco 2022. I designed and built the foundation of kivval.com.",
@@ -126,10 +126,10 @@
     "slug": "disney-parks",
     "name": "Disney Parks",
     "tagline": "Keeping a core platform shipping, sprint after sprint.",
-    "role": "Senior PM, product and delivery",
+    "role": "Senior Product Manager / Product Owner",
     "meta": "Globant · Dec 2025–present (on Disney since Jul 2022)",
     "cardMeta": "Senior PM · Globant · 2022–present",
-    "cardResult": "10+ features per PI · releases every 2 weeks · team of 20 across 7 teams",
+    "cardResult": "10+ features per PI · releases every 2 weeks · team of 20, 7 connected teams",
     "layout": "wide",
     "coverBg": "assets/img/bg-disney.jpg",
     "coverFlow": [
@@ -141,10 +141,10 @@
       "Release"
     ],
     "star": {
-      "situation": "Business requirements and technical criteria kept drifting apart, and every gap landed on dev and QA.",
-      "task": "Close that gap while keeping a platform the company depends on shipping predictably.",
-      "action": "Changed the partner UI so partners add products themselves, and moved PRDs into an AI-assisted repo so requirements and technical criteria match before each sprint.",
-      "result": "10+ features per PI, releases every 2 weeks, a team of 20 aligned with 7 teams."
+      "situation": "Partners had to ask our team every time they wanted a new product online, and business requirements kept drifting away from the technical criteria dev and QA built against.",
+      "task": "Remove both bottlenecks without slowing down a platform the business depends on.",
+      "action": "I changed the partner UI so partners create their own products, and moved PRDs into an AI-assisted repo where requirements and technical criteria are checked against each other before each sprint.",
+      "result": "10+ features per PI · releases every 2 weeks · a team of 20 working with 7 connected teams"
     },
     "numbers": [
       {
@@ -194,7 +194,7 @@
       {
         "type": "text",
         "title": "What changed",
-        "body": "Business and technical acceptance criteria now match before work starts. Dev and QA get clear requirements, refinements run smoother, and the code reflects what the business actually asked for."
+        "body": "Business and technical acceptance criteria now match before work starts, so dev and QA get clear requirements and the code reflects what the business asked for."
       },
       {
         "type": "text",
@@ -219,10 +219,10 @@
       "label": "on one B2B MVP"
     },
     "star": {
-      "situation": "Six Flags and Aquarabia in Qiddiya City needed travel agencies and partners to sell tickets, one by one or in bulk.",
+      "situation": "Qiddiya City's new parks needed travel agencies and partners to buy tickets online, one at a time or in bulk.",
       "task": "Take a B2B ticketing platform from discovery to MVP launch.",
-      "action": "Mapped the partner journey, then shaped the catalog, search by site and date, and the full checkout, from cart to card details, order summary and payment.",
-      "result": "MVP launched for three parks, with a team of 32."
+      "action": "I mapped how partners buy, shaped the catalog, search by park and date, and checkout, and held the launch date by trading new scope for planned work.",
+      "result": "MVP launched for 3 parks · team of 32"
     },
     "numbers": [
       {
@@ -239,10 +239,10 @@
         "type": "list",
         "title": "What I shaped",
         "items": [
-          "**Checkout:** adding to the cart, uploading card details, a summary of what you are about to buy, and payment.",
+          "**Checkout:** cart, card details, an order summary and payment.",
           "**Catalog and search:** partners find tickets by park and by date.",
-          "**Partner accounts:** onboarding, payment methods and card linking, and B2B credit lines for future purchases.",
-          "**Integrations:** CRM, CMS, the ticketing system and the payment gateway. I gave on-site product guidance through UAT."
+          "**Partner accounts:** onboarding, saved payment methods and B2B credit lines for later purchases.",
+          "**Integrations:** CRM, CMS, the ticketing system and the payment gateway. I was on site through UAT to answer product questions."
         ]
       },
       {
@@ -271,12 +271,12 @@
       {
         "type": "text",
         "title": "My part",
-        "body": "Seven's platform sold tickets to its parks; I led the account management section. Users edit their name, surname, date of birth, email, phone and other details in one place, so they are already filled in when they buy."
+        "body": "Seven sells tickets to its parks. I led the account section: people keep their name, date of birth, email, phone and other details in one place, so checkout is already filled in when they buy."
       },
       {
         "type": "text",
         "title": "How I led it",
-        "body": "I wrote the PRDs, translated them into clear requirements for dev and QA, and led the UX/UI team across mobile and web."
+        "body": "I wrote the PRDs, turned them into clear requirements for dev and QA, and led the UX/UI team across mobile and web."
       }
     ]
   },
@@ -292,10 +292,10 @@
     "cover": "assets/img/beer-prototype.jpg",
     "coverAlt": "The Beer World prototype home page",
     "star": {
-      "situation": "Craft breweries were taking share from a 150-year-old brewer, and most refused to be acquired.",
-      "task": "Find a way into craft beer without buying breweries or brewing new beers.",
-      "action": "Designed a two-sided marketplace, scoped a lean 8-month MVP, and built a working prototype with AI-assisted tools.",
-      "result": "Earned a job offer with this case."
+      "situation": "Craft breweries were taking share from Rook, a 150-year-old brewer, and most of them refused to be bought.",
+      "task": "Find a way for Rook into craft beer without buying breweries or brewing new beers.",
+      "action": "I designed a two-sided marketplace that gives brewers reach under their own name, scoped a lean 8-month MVP, and built a working prototype.",
+      "result": "A strategy case that earned me a job offer · €491k MVP plan"
     },
     "numbers": [
       {
@@ -378,10 +378,10 @@
     "cover": "assets/img/crm-dashboard.jpg",
     "coverAlt": "Lead CRM dashboard with clients per month and per sector",
     "star": {
-      "situation": "A marketing agency's clients had nowhere to keep campaign leads for remarketing or email.",
-      "task": "Build a simple CRM so leads stay usable after the campaign ends.",
-      "action": "Built it in Bubble, then pivoted when the agency itself turned out to have no CRM: sign-up now asks, agency or business?",
-      "result": "Tested with 5 clients; stopped when the agency chose not to continue."
+      "situation": "A marketing agency's clients lost their campaign leads once a campaign ended, with nowhere to reuse them for remarketing or email.",
+      "task": "Build a simple CRM so those leads stay useful.",
+      "action": "I built it in Bubble. When we found the agency had no CRM either, I added a first question at sign-up: agency or business?",
+      "result": "Tested with 5 clients · stopped when the agency chose not to continue"
     },
     "sections": [
       {
@@ -403,7 +403,7 @@
       {
         "type": "callout",
         "title": "What I learned",
-        "body": "The agency wanted a robust platform in one month. When scope, time and budget don't match, the tradeoffs have to be explicit from day one: cut scope, add resources, or say it isn't feasible. Now that conversation comes first, before any build starts."
+        "body": "The agency wanted a robust platform in one month. When scope, time and budget don't match, someone has to say so on day one: cut scope, add people, or call it not feasible. Now I have that conversation before any build starts."
       }
     ],
     "coverPosition": "left top"
