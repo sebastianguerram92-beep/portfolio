@@ -211,7 +211,7 @@
     "role": "Product lead",
     "meta": "In progress · Colombia · 2026",
     "cardMeta": "Product lead · In progress · 2026",
-    "cardResult": "Replacing a 15-year-old Excel · 3 of 4 sprints accepted · go-live Oct 15",
+    "cardResult": "Replacing a 15-year-old Excel · 3 of 4 sprints delivered · go-live Oct 15",
     "layout": "wide",
     "cover": "assets/img/sgf-review.jpg",
     "coverAlt": "SGF review screen: income and expenses grouped by cost center, with totals and a review mark per row",
@@ -220,7 +220,7 @@
       "situation": "A construction group ran the cash of several companies from one Excel built over 15 years. It took about 5 minutes to open, and duplicate or misfiled payments slipped through.",
       "task": "Replace it with a simple system that keeps each company's money apart and shows real balances by cost center.",
       "action": "We built our own tool instead of adapting single-company accounting software, made every entry start with the company so a payment can't land in the wrong project, and kept accounting out of scope.",
-      "result": "3 of 4 sprints accepted · go-live Oct 15, 2026 [check]"
+      "result": "3 of 4 sprints delivered · go-live Oct 15, 2026"
     },
     "numbers": [
       {
@@ -233,7 +233,7 @@
       },
       {
         "value": "3 of 4",
-        "label": "sprints accepted by the client"
+        "label": "sprints delivered"
       },
       {
         "value": "~300",
@@ -315,10 +315,10 @@
       {
         "type": "callout",
         "title": "What I learned",
-        "body": "[check] The hard part wasn't the software. It was moving people off a tool they built themselves, so every step keeps something familiar until the new way earns trust."
+        "body": "The hard part wasn't the software. It was moving people off a tool they built themselves, so every step keeps something familiar until the new way earns trust."
       }
     ],
-    "footer": "[check] Built with JEAH Consultorías. Client data is confidential; screenshots use test data."
+    "footer": "Client data is confidential; screenshots use test data."
   },
   {
     "slug": "qiddiya-city",
