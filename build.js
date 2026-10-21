@@ -84,7 +84,8 @@ function contact() {
 <a class="btn btn--dark" href="mailto:${esc(site.email)}">Email me</a>
 <a class="btn" href="${esc(site.linkedin)}" rel="noopener">LinkedIn</a>
 <a class="btn" href="${esc(site.resume)}">Resume (PDF)</a>
-</div>
+${site.resumeEs ? `<a class="btn" href="${esc(site.resumeEs)}" hreflang="es">Hoja de vida (ES)</a>
+` : ''}</div>
 <div class="footer"><span>© ${year} ${esc(site.name)}</span><a href="mailto:${esc(site.email)}">${esc(site.email)}</a></div>
 </section>`;
 }

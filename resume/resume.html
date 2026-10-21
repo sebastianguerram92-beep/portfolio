@@ -28,8 +28,8 @@ ul { padding-left: 13px; margin-top: 4px; }
 li { margin-top: 2.5px; color: var(--ink-2); }
 li::marker { color: var(--quiet); }
 li b { color: var(--ink); font-weight: 700; }
-.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 24px; margin-top: 6px; }
-.grid p { color: var(--ink-2); }
+.grid { display: flex; flex-direction: column; gap: 3px; margin-top: 6px; }
+.grid p { color: var(--ink-2); break-inside: avoid; }
 .grid p b { color: var(--ink); }
 .edu { margin-top: 6px; display: flex; flex-direction: column; gap: 3px; }
 .edu p { display: flex; gap: 6px; color: var(--ink-2); }
@@ -42,114 +42,136 @@ li b { color: var(--ink); font-weight: 700; }
 <header>
 <div>
 <h1>Sebastián Guerra</h1>
-<p class="role">Senior Product Manager</p>
+<p class="role">Senior Tech Product/Project Manager</p>
 </div>
 <div class="contact">
-Medellín, Colombia<br>
+Medellín, Colombia · +57 350 515 2184<br>
 <a href="mailto:sebastianguerram92@gmail.com">sebastianguerram92@gmail.com</a><br>
 <a href="https://sebastianguerra-product-portfolio.netlify.app">sebastianguerra-product-portfolio.netlify.app</a><br>
 <a href="https://www.linkedin.com/in/sebastian-guerra-546368136">linkedin.com/in/sebastian-guerra-546368136</a>
 </div>
 </header>
 
-<p class="summary">Product manager with 9 years building and shipping digital products across Latin America, the US, the Middle East and Australia. Co-founded Kivval and took it from a mobile MVP to break-even. At Globant I lead product for Disney Parks e-commerce and launched Qiddiya City's B2B ticketing MVP. I turn complex ideas into products people use: research first, explicit tradeoffs, predictable releases, and AI to keep business and technical requirements aligned.</p>
+<h2>Profile</h2>
+<p class="summary">Product and technology leader with 9 years leading multidisciplinary teams and digital platforms across Latin America, the US, the Middle East and Australia. I have owned product vision and roadmap, planning with interdependent teams, the relationship with client VPs and directors, and the P&amp;L of the accounts I lead.</p>
+<p class="summary">I combine strategy and execution. I have built areas and operations from scratch, like the R&amp;D area at Tecnoglass and the whole Kivval operation, and changed how teams deliver. I use AI (Claude and Cursor) to automate repetitive work and build mockups that I validate with the market before committing engineering.</p>
+<p class="summary">I have worked across industries: entertainment and tourism tech for Disney Parks and Qiddiya City, automotive with Kivval, and construction and manufacturing with ES Metals (Tecnoglass) and Metrix Group. In tech I have owned transactional platforms with checkout, payments, card linking, B2B credit and pricing engines.</p>
 
 <h2>Experience</h2>
 
 <div class="job">
-<div class="job__head"><h3>Globant <span>· Senior Product Manager / Product Owner, Disney Parks</span></h3><span class="dates">Dec 2025 – Present</span></div>
-<p class="sub">Core e-commerce platform (online ticketing, checkout, payments) that the client's other platforms depend on</p>
+<div class="job__head"><h3>Globant <span>· Senior Tech Product/Project Manager, Disney Parks</span></h3><span class="dates">Dec 2025 – Present</span></div>
+<p class="sub">Core e-commerce platform (ticketing, checkout, payments and pricing) that the client's other platforms depend on. Team of 20: Java engineers, QA, business analysts, automation engineers, architects and product managers.</p>
 <ul>
-<li><b>Self-serve for partners:</b> changed the partner UI so partners add and create products themselves instead of contacting the team.</li>
-<li><b>Requirements that match the code:</b> moved PRDs and acceptance criteria into an AI-assisted monorepo (Cursor), so gap analysis aligns business and technical criteria before each sprint; AI drafts Jira tickets, the team reviews them in refinement.</li>
-<li><b>Product vision and roadmap:</b> lead the vision and roadmap for a team of 20, aligned with the client's annual OKRs; monitor progress and report it to client directors and managers.</li>
-<li><b>PI Planning:</b> lead our part of PI Planning with 7 interdependent teams: scope, capacity, sprint goals and cross-team commitments.</li>
-<li><b>Stakeholder management:</b> client-facing with directors and managers, including on-site visits; align business, product, architecture, tech and delivery on priorities and tradeoffs.</li>
-<li><b>Feature risk management:</b> track and resolve risks from third-party dependencies, partner definitions, business definitions, tech specs and dependencies between teams before they reach a sprint.</li>
-<li>Ship 10+ new features per PI with releases every 2 weeks; plan integration windows for every dependent team; own E2E and UAT through production.</li>
-<li>Own the P&amp;L of a US$2M account: forecasting, margin and billing.</li>
+<li><b>Results:</b> raised delivery commitment from 67% to 95% in one year by aligning business requirements and technical criteria in an AI-assisted repository.</li>
+<li><b>Results:</b> redesigned the partner interface so partners create their own products without depending on the team.</li>
+<li>Define the product vision and roadmap aligned with the client's annual OKRs, and turn them into sprint deliverables.</li>
+<li>Lead PI Planning with 7 interdependent teams: scope, capacity, objectives and cross-team commitments.</li>
+<li>Manage the relationship with client VPs, directors and managers, including on-site visits to review priorities, risks and contracts.</li>
+<li>Align architecture, technology, delivery and product on prioritization, dependencies and risks.</li>
+<li>Lead change management: new processes, roles and clear expectations for the team.</li>
+<li>Find account expansion opportunities together with the Delivery Managers.</li>
+<li>Diagnose and redesign workflows, and automate repetitive work with AI (Claude and Cursor).</li>
+<li>Own the P&amp;L of a US$2M account (forecast, margin and billing) and report it through dashboards.</li>
 </ul>
 </div>
 
 <div class="job">
-<div class="job__head"><h3>Globant <span>· Senior Product Manager, Qiddiya City and Saudi Seven Parks</span></h3><span class="dates">May 2024 – Dec 2025</span></div>
+<div class="job__head"><h3>Globant <span>· Senior Tech Product/Project Manager, Qiddiya City and Saudi Seven Parks</span></h3><span class="dates">May 2024 – Dec 2025</span></div>
+<p class="sub">B2B ticketing platform for Six Flags Qiddiya and Aquarabia, part of Saudi Arabia's Vision 2030. Team of 32: web (React, Svelte), Node.js, QA, automation, UX, visual design, business analysts and DevOps.</p>
 <ul>
-<li><b>Qiddiya City B2B ticketing:</b> took the platform for Six Flags Qiddiya and Aquarabia from discovery to MVP launch with a team of 32 (web, backend, QA, automation, UX, DevOps).</li>
-<li>Managed stakeholders across the client, internal teams and vendors; unblocked third-party dependencies and gave on-site product guidance through UAT.</li>
-<li>Mapped the partner journey and shaped the catalog, search by park and date, and the full checkout: cart, card details, order summary and payment.</li>
-<li>Defined partner onboarding, payment methods and card linking, and B2B credit lines; integrated CRM, CMS, ticketing and payment gateway.</li>
-<li>Made scope tradeoffs explicit: added the CMS and advertising content the client asked for, deferred accessibility, performance and UI enhancements to hold the launch date.</li>
-<li><b>Saudi Seven Parks:</b> led account management for the ticketing platform, so users save personal details once and have them pre-filled at purchase. Wrote the PRDs and led UX/UI for mobile and web.</li>
+<li><b>Results:</b> launched the MVP for three parks on the committed date.</li>
+<li><b>Results:</b> at Saudi Seven Parks, wrote the PRDs and led mobile and web UX/UI for account management.</li>
+<li>Led discovery and backlog definition: partner journey, pain points and prioritization.</li>
+<li>Defined the transactional modules: checkout, payment methods, card linking, B2B credit lines and partner onboarding.</li>
+<li>Coordinated integrations with CRM, CMS, the ticketing system and the payment gateway.</li>
+<li>Managed stakeholders across the client, internal teams and vendors, and unblocked third-party dependencies.</li>
+<li>Negotiated scope with the client and made tradeoffs explicit to protect the launch date.</li>
+<li>Monitored project profitability and guided the product on site during UAT.</li>
 </ul>
 </div>
 
 <div class="job">
-<div class="job__head"><h3>Globant <span>· Product and Project Manager, Disney Parks e-commerce</span></h3><span class="dates">Jul 2022 – May 2024 · Jun – Dec 2021</span></div>
+<div class="job__head"><h3>Globant <span>· Product &amp; Project Manager, Disney Parks e-commerce</span></h3><span class="dates">Jul 2022 – May 2024 · Jun – Dec 2021</span></div>
+<p class="sub">Online ticketing and US parks. 5 teams, about 25 people.</p>
 <ul>
-<li>Led product and delivery for 5 teams (~25 people) in online ticketing and US parks: backlog, prioritization, Definition of Ready and Done.</li>
-<li>Designed the opportunities-management process for Globant's Disney PMs, later adopted as a standard across LATAM.</li>
-<li>Managed P&amp;L forecasting and contracts across fixed price, staff augmentation and T&amp;M.</li>
+<li><b>Results:</b> designed the opportunities-management process for Globant's Disney PMs, adopted as a standard across LATAM.</li>
+<li>Led product and delivery: backlog, prioritization, and Definition of Ready and Done with engineering leads.</li>
+<li>Managed account finances: P&amp;L forecast, billing, margins, and fixed-price, staff augmentation and T&amp;M contracts.</li>
+<li>Facilitated Scrum, coached teams, trained junior PMs and onboarded new people.</li>
+<li>Found and developed new business opportunities with Disney managers.</li>
 </ul>
 </div>
 
 <div class="job">
 <div class="job__head"><h3>Kivval <span>· Co-founder and Product Lead</span></h3><span class="dates">2021 – 2025</span></div>
-<p class="sub">Car buying and ownership platform for Colombia. Full-time Jan – Jun 2022, then co-founder and partner.</p>
+<p class="sub">Platform to buy and maintain vehicles in Colombia. Full-time Jan – Jun 2022, then partner.</p>
 <ul>
-<li><b>Results:</b> 35k people reached in year one, ~US$200k in vehicles sold (GMV), 0.5% visitor-to-buyer conversion, US$500 LTV over two years, break-even in 2024.</li>
-<li><b>Research-led pivots:</b> focus groups, interviews, surveys and store data (2.6M impressions, 635 downloads) moved the product from a mobile app to a web app, and the business from purchase commissions to ownership services.</li>
-<li>Cut what didn't retain users: the launch discount and the Kivval+ subscription. Built B2B partnerships for financing, insurance, designated drivers and car washes.</li>
-<li>Added used cars after 38% of active users asked for them; redesigned comparison, home and in-product SOAT payment across sprints.</li>
-<li>Top 6 of 125 in Ruta N's Valle del Software program; Startco 2022 with Bancolombia.</li>
+<li><b>Results:</b> 35,000 people in the first year and break-even in 2024.</li>
+<li><b>Results:</b> Top 6 of 125 in Ruta N's Valle del Software; Startco 2022 with Bancolombia.</li>
+<li>Started the operation: built the team, defined processes, and set financial and product goals.</li>
+<li>Defined strategy and roadmap based on user research and KPIs.</li>
+<li>Led the outsourced tech team through the whole cycle: discovery, design, development and launch.</li>
+<li>Ran the commercial strategy, B2B partnerships (financing, insurance and services) and the marketing and brand plan.</li>
+<li>Used data to decide what to evolve and what to retire in the product.</li>
 </ul>
 </div>
 
 <div class="job">
 <div class="job__head"><h3>ES Metals (Tecnoglass) <span>· Project Manager and R&amp;D Coordinator</span></h3><span class="dates">Aug 2019 – May 2021</span></div>
 <ul>
-<li>Created the R&amp;D area and ran discovery for new facade products, materials and suppliers on US projects, including the thermal insulation for 135 East in Manhattan, Doral Square in Miami and Weymouth near Boston.</li>
-<li>Led design, engineering, production, purchasing and logistics to deliver on schedule and budget.</li>
+<li><b>Results:</b> delivered projects with solutions found by R&amp;D, such as the thermal insulation for 135 East in Manhattan.</li>
+<li>Created and led the R&amp;D area: search for new products, processes, materials and suppliers.</li>
+<li>Planned and controlled schedules and budgets for facade projects in the US.</li>
+<li>Coordinated design, engineering, production, purchasing, dispatch, installation and logistics.</li>
+<li>Handled client relationships and negotiations, and coordinated marketing materials.</li>
 </ul>
 </div>
 
 <div class="job">
 <div class="job__head"><h3>Metrix Group, Melbourne <span>· Industrial Design Team Lead</span></h3><span class="dates">Aug 2017 – Jul 2019</span></div>
 <ul>
-<li>Cut change-order time from 45 to 15 minutes with Lean; led a team of 6 across design, programming and production.</li>
-<li>Earlier: 3D designer and visualizer in Melbourne and Colombia (interiors, commercial spaces, facades).</li>
+<li><b>Results:</b> cut change-order time from 45 to 15 minutes with Lean.</li>
+<li>Led a team of 6 across design, programming and production, with daily and weekly goals.</li>
+<li>Standardized processes, defined roles and trained staff.</li>
+<li>Turned projects into technical drawings and G-code for production, and managed raw materials.</li>
 </ul>
 </div>
 
-<h2>Selected projects</h2>
+<h2>Projects</h2>
 <ul>
-<li><b>The Beer World (2025):</b> product strategy and working prototype for a two-sided craft-beer marketplace; 8-month MVP plan with a €491k budget. Earned a job offer.</li>
-<li><b>Lead CRM (2024, TOM Consulting):</b> built in Bubble for a marketing agency; pivoted to serve the agency itself; piloted with 5 clients.</li>
+<li><b>The Beer World (2025):</b> product strategy and working prototype, built with AI tools, for a two-sided craft-beer marketplace. 8-month MVP plan with a €491k budget. Earned me a job offer.</li>
+<li><b>Lead CRM (2024, TOM Consulting):</b> CRM built in Bubble for a marketing agency. Pivoted to serve the agency itself and tested it with 5 clients.</li>
 </ul>
 
-<h2>Skills</h2>
+<h2>Key skills</h2>
 <div class="grid">
-<p><b>Product:</b> product vision, roadmaps, discovery, user research, PRDs, prioritization, business cases, go-to-market, P&amp;L</p>
-<p><b>Delivery:</b> PI Planning, SAFe, Scrum, Kanban, stakeholder management, risk and dependency management</p>
-<p><b>Tools:</b> Jira, Confluence, Figma, Cursor and AI-assisted workflows, Bubble, Microsoft Project, Rhinoceros, V-Ray</p>
-<p><b>Methods:</b> Lean Six Sigma, design thinking, process mapping, dashboards and reporting</p>
+<p><b>Leadership and strategy:</b> teams of up to 32, change management, relationships with VPs and directors, negotiation and contracts</p>
+<p><b>Product:</b> vision, roadmap, discovery, user research, PRDs, prioritization, evolving and retiring products, business cases, go-to-market, P&amp;L</p>
+<p><b>Payments and transactional software:</b> checkout, payment gateways, card linking, B2B credit lines, pricing and offer engines, billing</p>
+<p><b>Integrations:</b> APIs with CRM, CMS, ticketing and payments; dependency management across platforms</p>
+<p><b>Scaled agile and portfolio:</b> SAFe, PI Planning, Scrum, Kanban, cross-team risks and dependencies</p>
+<p><b>Metrics:</b> product KPIs, conversion, LTV, dashboards and reporting</p>
+<p><b>UX:</b> flows and prototypes in Figma</p>
+<p><b>AI and automation:</b> Claude and Cursor to automate repetitive work and build mockups for fast market validation; Bubble; process automation</p>
+<p><b>Methods:</b> Lean Six Sigma, design thinking, process mapping</p>
 </div>
-
-<h2>Languages</h2>
-<p style="margin-top: 6px; color: var(--ink-2)"><b style="color: var(--ink)">Spanish</b> native · <b style="color: var(--ink)">English</b> upper B2 (professional)</p>
 
 <h2>Education and certifications</h2>
 <div class="edu">
+<p><span>Product Design Engineering</span> Universidad EAFIT, Medellín <i>2011 – 2016</i></p>
 <p><span>Product Management</span> Colectivo 23, Medellín <i>Apr 2026</i></p>
-<p><span>Introduction to Behavioral Science</span> Universidad EIA, Medellín <i>Sep 2025</i></p>
-<p><span>Certified SAFe 5 Product Owner / Product Manager</span> Scaled Agile, Inc. <i>Jan 2022</i></p>
+<p><span>Introduction to Behavioral Science</span> Universidad EIA <i>Sep 2025</i></p>
+<p><span>Certified SAFe 5 Product Owner / Product Manager</span> Scaled Agile <i>Jan 2022</i></p>
 <p><span>Certified Scrum Master</span> Scrum Alliance <i>Jan 2022</i></p>
-<p><span>Scrum Foundations Professional Certificate</span> Cerprof <i>May – Jun 2020</i></p>
-<p><span>Life Coach Certificate</span> New Skills Academy <i>Mar – Apr 2020</i></p>
-<p><span>Microsoft Project</span> <i>Apr 2019</i></p>
-<p><span>Green Belt, Lean Manufacturing and Six Sigma</span> Vative, Melbourne <i>Mar – Apr 2018</i></p>
+<p><span>Green Belt, Lean Manufacturing and Six Sigma</span> Vative, Melbourne <i>2018</i></p>
 <p><span>Certificate IV in Marketing and Communications</span> Australian Institute of Technology, Melbourne <i>2018</i></p>
-<p><span>BS, Product Design Engineering</span> EAFIT University, Medellín <i>2011 – 2016</i></p>
+<p><span>Scrum Foundations Professional Certificate</span> Cerprof <i>2020</i></p>
+<p><span>Microsoft Project</span> <i>2019</i></p>
 </div>
+
+<h2>Languages</h2>
+<p style="margin-top: 6px; color: var(--ink-2)"><b style="color: var(--ink)">Spanish</b> native · <b style="color: var(--ink)">English</b> advanced (daily professional use)</p>
 
 </body>
 </html>
